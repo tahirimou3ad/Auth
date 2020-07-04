@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Registration Page</title>
+    <style>
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color:goldenrod;">Happy to see you joining us !</h1>
+    <br>
+    <form action="register" method="POST">
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" name="name" placeholder="Enter name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" placeholder="Enter Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" name="password" placeholder="Enter password" required>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary btn-lg">Register</button>
+    </form>
+    <br>
+    <hr>
+    <h5 style="text-align: center;">Already have an account? <a href="login">Log In !</a></h5>
+</body>
+</html>
